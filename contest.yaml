@@ -3,9 +3,9 @@ description: "國立成功大學暑期高中生程式設計邀請賽初賽測機
 token_mode: disabled
 timezone: "+8"
 tasks:
-  - "pA"
-  - "pB"
-  - "pC"
+  - "Test_pA"
+  - "Test_pB"
+  
 users:
   - username: "testuser1"
     password: "a69376ebd481fe4dd5cf5d3f403cf9e2"
