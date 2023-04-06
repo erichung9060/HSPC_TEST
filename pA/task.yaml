@@ -1,0 +1,9 @@
+name: pA
+title: Hello World!
+time_limit: 1
+memory_limit: 256
+n_input: 1
+token_mode: disabled
+public_testcases: 0
+infile: ""
+outfile: ""
