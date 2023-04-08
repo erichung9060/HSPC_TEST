@@ -1,0 +1,41 @@
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META content="no-cache" http-equiv="pragma">
+    <META content="-1" http-equiv="expires">
+    <META content="text/html;charset=UTF-8" http-equiv="content-type">
+    <LINK href="problem-statement.css" rel="stylesheet" type="text/css">
+    <TITLE>有趣的資訊營</TITLE>
+    <SCRIPT type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+        });
+        </SCRIPT>
+        <SCRIPT async="" src="https://polygon.codeforces.com/lib/MathJax/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript">
+    </SCRIPT>
+</HEAD><BODY>
+    <DIV class="problem-statement"><DIV class="header"><DIV class="title">有趣的資訊營</DIV><DIV class="time-limit"><DIV class="property-title">time limit per test</DIV>1 second</DIV><DIV class="memory-limit"><DIV class="property-title">memory limit per test</DIV>1024 megabytes</DIV><DIV class="input-file"><DIV class="property-title">input</DIV>standard input</DIV><DIV class="output-file"><DIV class="property-title">output</DIV>standard output</DIV></DIV><DIV class="legend"><P></P><P>由於成大資工的一群好朋友要在7/9-7/15辦一場盛大的資訊營，目的是要讓高中生了解為什麼大括號要換行，但由於人數眾多，總召實在是忙不過來，想請各位聰明的你寫個程式幫幫他。</P><P>資訊營的期間有許多有趣的活動，像是滿足感官的精彩表演、多元豐富的遊戲、充實的課程，從基礎的語法觀念，到進階的實用技術，應有盡有，總召會事先調查每個人想參加的活動，並決定每種活動的人數上限，但礙於人數眾多以及資源有限，每個人只會被分配到一種活動參與，總召想讓每位參賽者都參加到自己喜歡的活動，因此想請你寫個程式來判斷最多能滿足幾位學員參加到自己喜歡的活動。</P></DIV><P></P><P></P><DIV class="input-specification"><DIV class="section-title">Input</DIV><P></P><P>第一行會有兩個整數n跟m，分別代表參加者人數及活動數量（編號從1 開始)。</P><P> 接著會有n行，每一行的第一個數字k代表該參加者想去的活動數量，接著會有k個數字為活動的編號。</P><P> 最後一行會有m個數，表示該活動的參與人數上限。 </P></DIV><P></P><P></P><DIV class="output-specification"><DIV class="section-title">Output</DIV><P></P><P>請輸出一個數字代表最多能滿足幾位學員。</P></DIV><P></P><P></P><DIV class="sample-tests"><DIV class="section-title">Examples</DIV><P></P><P></P><DIV class="sample-test"><DIV class="input"><DIV class="title">Input</DIV><PRE class="content">
+3 5
+3 1 3 5
+2 3 4
+1 1
+1 1 1 1 1
+</PRE></DIV><DIV class="output"><DIV class="title">Output</DIV><PRE class="content">
+3
+</PRE></DIV><DIV class="input"><DIV class="title">Input</DIV><PRE class="content">
+3 5
+2 1 3
+1 1
+1 3
+1 1 1 1 1
+</PRE></DIV><DIV class="output"><DIV class="title">Output</DIV><PRE class="content">
+2
+</PRE></DIV><DIV class="input"><DIV class="title">Input</DIV><PRE class="content">
+3 5
+2 1 3
+1 1
+1 3
+1 1 2 1 1
+</PRE></DIV><DIV class="output"><DIV class="title">Output</DIV><PRE class="content">
+3
+</PRE></DIV></DIV></DIV><P></P><P></P><DIV class="note"><DIV class="section-title">Note</DIV><P></P><P><SPAN class="tex-font-size-large-1">範例說明1</SPAN></P><P>第一位學員想參加活動1、3、5，第二位學員想參加活動3、4，第三位學員只想參與活動1，並且所有活動的人數上限都為1，因此可以讓第一位學員參與活動3，第二位學員參與活動4，第三位學員參與活動1，即最多可滿足3個人。</P><P><SPAN class="tex-font-size-large-1">範例說明2</SPAN></P><P>第一位學員想參加活動1、3，第二位學員只想參加活動1，第三位學員只想參與活動3，並且所有活動的人數上限都為1，不管怎麼分配都會有一人因活動人數滿了而無法參加到喜歡的活動，因此最多只可滿足3個人。</P><P><SPAN class="tex-font-size-large-1">範例說明3</SPAN></P><P>跟範例二一樣，差別在於活動3的人數上限為2，因此可以讓第一位學員參與活動3，第二位學員參與活動1，第三位學員參與活動3，即最多可滿足3個人。</P><P>成大資營報名網址： <A href="https://csiecamp.ncku.ml">https://csiecamp.ncku.ml</A></P></DIV></DIV><P></P><P>  </P>
+
+</BODY></HTML>

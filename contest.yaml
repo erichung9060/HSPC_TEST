@@ -5,6 +5,7 @@ timezone: "+8"
 tasks:
   - "Test_pA"
   - "Test_pB"
+  - "Test_pC"
   
 users:
   - username: "testuser1"
