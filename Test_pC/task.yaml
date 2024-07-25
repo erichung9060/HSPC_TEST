@@ -1,9 +1,0 @@
-name: Test_pC
-title: CSIE-Camp
-time_limit: 1
-memory_limit: 256
-n_input: 33
-token_mode: disabled
-public_testcases: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32
-infile: ""
-outfile: ""
